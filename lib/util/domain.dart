@@ -1,9 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-const SCALE_FRACTION = 0.7;
-const FULL_SCALE = 1.0;
-const PAGER_HEIGHT = 250.0;
 Future<Map> getPopularMovies() async {
   var url =
       'https://api.themoviedb.org/3/movie/popular?api_key=1a43f1f22e3cf15ce2cfd8ca5af13e6f';
